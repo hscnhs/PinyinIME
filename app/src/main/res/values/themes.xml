@@ -10,7 +10,7 @@
     </style>
 
     <!-- 键盘浅色主题 -->
-    <style name="KeyboardTheme.Light">
+    <style name="KeyboardTheme_Light">
         <item name="kbBackground">@color/kb_bg_light</item>
         <item name="kbKeyBackground">@color/kb_key_light</item>
         <item name="kbKeyPressed">@color/kb_key_pressed_light</item>
@@ -27,7 +27,7 @@
     </style>
 
     <!-- 键盘深色主题 -->
-    <style name="KeyboardTheme.Dark">
+    <style name="KeyboardTheme_Dark">
         <item name="kbBackground">@color/kb_bg_dark</item>
         <item name="kbKeyBackground">@color/kb_key_dark</item>
         <item name="kbKeyPressed">@color/kb_key_pressed_dark</item>
