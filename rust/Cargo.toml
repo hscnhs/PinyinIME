@@ -1,0 +1,12 @@
+[package]
+name = "pinyin-engine"
+version = "0.1.0"
+edition = "2021"
+description = "拼音转换引擎核心 —— 纯 Rust 实现，无 Android 依赖，可被 JNI 包装供输入法使用"
+license = "MIT"
+
+[lib]
+name = "pinyin_engine"
+path = "src/lib.rs"
+
+[dependencies]
