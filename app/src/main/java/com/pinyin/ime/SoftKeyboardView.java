@@ -315,7 +315,7 @@ public class SoftKeyboardView extends View {
                 mPressedKey = k;
                 mLongPressHandled = false;
                 invalidate();
-                cancelLongPress();
+                cancelPendingLongPress();
                 if (k != null) {
                     // 重复键与可长按键均启动长按计时
                     mHandler.postDelayed(mLongPressRunnable, LONG_PRESS_DELAY);
@@ -327,7 +327,7 @@ public class SoftKeyboardView extends View {
                 Key k = findKey(x, y);
                 if (k != mPressedKey) {
                     mPressedKey = k;
-                    cancelLongPress();
+                    cancelPendingLongPress();
                     mInLongPressRepeat = false;
                     mLongPressHandled = false;
                     invalidate();
@@ -342,7 +342,7 @@ public class SoftKeyboardView extends View {
             }
             case MotionEvent.ACTION_UP:
             case MotionEvent.ACTION_CANCEL: {
-                cancelLongPress();
+                cancelPendingLongPress();
                 hidePreview();
                 Key k = mPressedKey;
                 mPressedKey = null;
@@ -372,7 +372,7 @@ public class SoftKeyboardView extends View {
         return null;
     }
 
-    private void cancelLongPress() {
+    private void cancelPendingLongPress() {
         mHandler.removeCallbacks(mLongPressRunnable);
     }
 
@@ -418,7 +418,7 @@ public class SoftKeyboardView extends View {
     @Override
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
-        cancelLongPress();
+        cancelPendingLongPress();
         hidePreview();
     }
 }
