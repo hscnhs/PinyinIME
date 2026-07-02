@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- QWERTY 主键盘布局 -->
+<Keyboard>
+    <Row>
+        <Key label="q" code="113" />
+        <Key label="w" code="119" />
+        <Key label="e" code="101" />
+        <Key label="r" code="114" />
+        <Key label="t" code="116" />
+        <Key label="y" code="121" />
+        <Key label="u" code="117" />
+        <Key label="i" code="105" />
+        <Key label="o" code="111" />
+        <Key label="p" code="112" />
+    </Row>
+    <Row>
+        <Spacer width="0.05" />
+        <Key label="a" code="97" />
+        <Key label="s" code="115" />
+        <Key label="d" code="100" />
+        <Key label="f" code="102" />
+        <Key label="g" code="103" />
+        <Key label="h" code="104" />
+        <Key label="j" code="106" />
+        <Key label="k" code="107" />
+        <Key label="l" code="108" />
+        <Spacer width="0.05" />
+    </Row>
+    <Row>
+        <Key label="shift" code="-1" width="1.5" isModifier="true" />
+        <Key label="z" code="122" />
+        <Key label="x" code="120" />
+        <Key label="c" code="99" />
+        <Key label="v" code="118" />
+        <Key label="b" code="98" />
+        <Key label="n" code="110" />
+        <Key label="m" code="109" />
+        <Key label="⌫" code="-5" width="1.5" isRepeatable="true" />
+    </Row>
+    <Row>
+        <Key label="?123" code="-100" width="1.4" isModifier="true" />
+        <Key label="，" code="65288" keyOutputText="，" width="1.0" />
+        <Key label="" code="32" width="5.0" />
+        <Key label="。" code="65289" keyOutputText="。" width="1.0" />
+        <Key label="⏎" code="-4" width="1.6" isModifier="true" />
+    </Row>
+</Keyboard>

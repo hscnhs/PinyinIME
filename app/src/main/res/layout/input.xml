@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 输入法主视图：上方候选栏 + 下方键盘 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.pinyin.ime.CandidateView
+        android:id="@+id/candidates"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/candidate_height"
+        android:background="?attr/kbCandidateBackground" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="?attr/kbDividerColor" />
+
+    <com.pinyin.ime.SoftKeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_height" />
+
+</LinearLayout>

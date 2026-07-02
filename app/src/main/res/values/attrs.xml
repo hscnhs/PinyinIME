@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 键盘主题相关属性，供主题切换 -->
+    <attr name="kbBackground" format="color" />
+    <attr name="kbKeyBackground" format="color" />
+    <attr name="kbKeyPressed" format="color" />
+    <attr name="kbKeyFunctionBackground" format="color" />
+    <attr name="kbKeyFunctionPressed" format="color" />
+    <attr name="kbTextColor" format="color" />
+    <attr name="kbTextFunctionColor" format="color" />
+    <attr name="kbSpaceTextColor" format="color" />
+    <attr name="kbDividerColor" format="color" />
+    <attr name="kbCandidateBackground" format="color" />
+    <attr name="kbCandidateTextColor" format="color" />
+    <attr name="kbCandidateSelectedColor" format="color" />
+    <attr name="kbAccentColor" format="color" />
+</resources>

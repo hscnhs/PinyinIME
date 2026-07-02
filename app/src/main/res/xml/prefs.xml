@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_category_appearance">
+        <SwitchPreferenceCompat
+            android:key="pref_dark_theme"
+            android:title="@string/pref_dark_theme_title"
+            android:summary="@string/pref_dark_theme_summary"
+            android:defaultValue="false" />
+        <SwitchPreferenceCompat
+            android:key="pref_key_sound"
+            android:title="@string/pref_sound_title"
+            android:summary="@string/pref_sound_summary"
+            android:defaultValue="false" />
+        <SwitchPreferenceCompat
+            android:key="pref_key_vibrate"
+            android:title="@string/pref_vibrate_title"
+            android:summary="@string/pref_vibrate_summary"
+            android:defaultValue="true" />
+        <SwitchPreferenceCompat
+            android:key="pref_key_popup"
+            android:title="@string/pref_popup_title"
+            android:summary="@string/pref_popup_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_input">
+        <SwitchPreferenceCompat
+            android:key="pref_chinese_default"
+            android:title="@string/pref_chinese_default_title"
+            android:summary="@string/pref_chinese_default_summary"
+            android:defaultValue="true" />
+        <SwitchPreferenceCompat
+            android:key="pref_double_space_period"
+            android:title="@string/pref_double_space_title"
+            android:summary="@string/pref_double_space_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_system">
+        <Preference
+            android:key="pref_enable_ime"
+            android:title="@string/pref_enable_title"
+            android:summary="@string/pref_enable_summary" />
+        <Preference
+            android:key="pref_switch_ime"
+            android:title="@string/pref_switch_title"
+            android:summary="@string/pref_switch_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_about">
+        <Preference
+            android:title="@string/app_name"
+            android:summary="@string/pref_about_summary" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

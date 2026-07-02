@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 符号键盘第二页（更多符号） -->
+<Keyboard>
+    <Row>
+        <Key label="€" code="8364" />
+        <Key label="£" code="163" />
+        <Key label="¥" code="165" />
+        <Key label="¢" code="162" />
+        <Key label="°" code="176" />
+        <Key label="§" code="167" />
+        <Key label="±" code="177" />
+        <Key label="×" code="215" />
+        <Key label="÷" code="247" />
+        <Key label="=" code="61" />
+    </Row>
+    <Row>
+        <Key label="《" code="12298" />
+        <Key label="》" code="12299" />
+        <Key label="「" code="12300" />
+        <Key label="」" code="12301" />
+        <Key label="【" code="12304" />
+        <Key label="】" code="12305" />
+        <Key label="（" code="65288" />
+        <Key label="）" code="65289" />
+        <Key label="；" code="65307" />
+        <Key label="：" code="65306" />
+    </Row>
+    <Row>
+        <Key label="123" code="-101" width="1.5" isModifier="true" />
+        <Key label="「" code="12300" />
+        <Key label="」" code="12301" />
+        <Key label="、" code="12289" />
+        <Key label="~" code="126" />
+        <Key label="*" code="42" />
+        <Key label="\\" code="92" />
+        <Key label="⌫" code="-5" width="1.5" isRepeatable="true" />
+    </Row>
+    <Row>
+        <Key label="ABC" code="-100" width="1.4" isModifier="true" />
+        <Key label="，" code="65288" keyOutputText="，" width="1.0" />
+        <Key label="" code="32" width="5.0" />
+        <Key label="。" code="65289" keyOutputText="。" width="1.0" />
+        <Key label="⏎" code="-4" width="1.6" isModifier="true" />
+    </Row>
+</Keyboard>

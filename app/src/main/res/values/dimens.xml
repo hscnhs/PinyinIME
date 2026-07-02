@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 键盘尺寸 -->
+    <dimen name="keyboard_height">240dp</dimen>
+    <dimen name="candidate_height">38dp</dimen>
+    <dimen name="key_text_size">22sp</dimen>
+    <dimen name="key_function_text_size">16sp</dimen>
+    <dimen name="key_label_padding">4dp</dimen>
+    <dimen name="key_vertical_gap">6dp</dimen>
+    <dimen name="key_horizontal_gap">4dp</dimen>
+    <dimen name="key_corner_radius">6dp</dimen>
+    <dimen name="candidate_text_size">15sp</dimen>
+    <dimen name="candidate_padding">12dp</dimen>
+    <dimen name="preview_text_size">28sp</dimen>
+    <dimen name="preview_height">52dp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 应用主题 -->
+    <style name="Theme.PinyinIME" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#1A73E8</item>
+        <item name="colorPrimaryDark">#0D47A1</item>
+        <item name="colorAccent">#1A73E8</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <!-- 键盘浅色主题 -->
+    <style name="KeyboardTheme.Light">
+        <item name="kbBackground">@color/kb_bg_light</item>
+        <item name="kbKeyBackground">@color/kb_key_light</item>
+        <item name="kbKeyPressed">@color/kb_key_pressed_light</item>
+        <item name="kbKeyFunctionBackground">@color/kb_key_function_light</item>
+        <item name="kbKeyFunctionPressed">@color/kb_key_function_pressed_light</item>
+        <item name="kbTextColor">@color/kb_text_light</item>
+        <item name="kbTextFunctionColor">@color/kb_text_function_light</item>
+        <item name="kbSpaceTextColor">@color/kb_space_text_light</item>
+        <item name="kbDividerColor">@color/kb_divider_light</item>
+        <item name="kbCandidateBackground">@color/kb_candidate_bg_light</item>
+        <item name="kbCandidateTextColor">@color/kb_candidate_text_light</item>
+        <item name="kbCandidateSelectedColor">@color/kb_candidate_selected_light</item>
+        <item name="kbAccentColor">@color/kb_accent_light</item>
+    </style>
+
+    <!-- 键盘深色主题 -->
+    <style name="KeyboardTheme.Dark">
+        <item name="kbBackground">@color/kb_bg_dark</item>
+        <item name="kbKeyBackground">@color/kb_key_dark</item>
+        <item name="kbKeyPressed">@color/kb_key_pressed_dark</item>
+        <item name="kbKeyFunctionBackground">@color/kb_key_function_dark</item>
+        <item name="kbKeyFunctionPressed">@color/kb_key_function_pressed_dark</item>
+        <item name="kbTextColor">@color/kb_text_dark</item>
+        <item name="kbTextFunctionColor">@color/kb_text_function_dark</item>
+        <item name="kbSpaceTextColor">@color/kb_space_text_dark</item>
+        <item name="kbDividerColor">@color/kb_divider_dark</item>
+        <item name="kbCandidateBackground">@color/kb_candidate_bg_dark</item>
+        <item name="kbCandidateTextColor">@color/kb_candidate_text_dark</item>
+        <item name="kbCandidateSelectedColor">@color/kb_candidate_selected_dark</item>
+        <item name="kbAccentColor">@color/kb_accent_dark</item>
+    </style>
+
+</resources>
