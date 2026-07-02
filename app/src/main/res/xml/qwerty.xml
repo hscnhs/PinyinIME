@@ -38,7 +38,7 @@
         <Key label="⌫" code="-5" width="1.5" isRepeatable="true" />
     </Row>
     <Row>
-        <Key label="?123" code="-100" width="1.4" isModifier="true" />
+        <Key label="\?123" code="-100" width="1.4" isModifier="true" />
         <Key label="，" code="65288" keyOutputText="，" width="1.0" />
         <Key label="" code="32" width="5.0" />
         <Key label="。" code="65289" keyOutputText="。" width="1.0" />
